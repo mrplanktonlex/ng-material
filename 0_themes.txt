@@ -1,0 +1,7 @@
+Themes are decidedd using 5 colors/palettes:-
+
+> Primary Palette
+> Accent Paletter
+> Warn Palette
+> Foreground Palette: Text/icons
+> Background Palette: subtle backgrounds (not the default white background)
