@@ -28,3 +28,10 @@ $someapp-theme: mat-light-theme($someapp-primary, $someapp-accent); // u can use
 
 @include angular-material-theme($someapp-theme); // this is a mixin function
 
+---
+
+Once theme is created you can also get the values like this:-
+
+$matPrimaryColor: mat-color(map-get(($app-theme, primary));
+$matAccentColor: mat-color(map-get(($app-theme, accent));
+$matWarnColor: mat-color(map-get(($app-theme, warn));
