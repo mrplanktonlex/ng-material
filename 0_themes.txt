@@ -13,6 +13,8 @@ If angular-cli.json, then
 
 material.angular.io
 - has a material design spec which lists all the colors and how to do a theme-file.
+  https://material.angular.io/guide/theming 
+  https://material.io/archive/guidelines/style/color.html#color-color-palette 
 
 my-theme.scss (in same folder as main.ts)
 - @import '~@angular/material/theming';
