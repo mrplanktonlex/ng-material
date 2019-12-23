@@ -16,13 +16,13 @@ material.angular.io
 
 my-theme.scss (in same folder as main.ts)
 - @import '~@angular/material/theming';
-- @include mat-core(); // gives us sass-related variables.
+- @include mat-core(); // gives us sass-related variables. // mat-core() is a mixin function
 
 $someapp-primary: mat-palette ($mat-indigo); // mat-palette() is available from the theming-import 
 $someapp-accent:  mat-palette ($mat-pink, A200, A100, A400);
 
 $someapp-warn: mat-palette($mat-red);
-$someapp-theme: mat-light-theme($someapp-primary, $someapp-accent);
+$someapp-theme: mat-light-theme($someapp-primary, $someapp-accent); // u can use dark-theme here too.
 
-
+@include angular-material-theme($someapp-theme); // this is a mixin function
 
