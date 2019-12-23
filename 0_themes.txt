@@ -5,3 +5,12 @@ Themes are decidedd using 5 colors/palettes:-
 > Warn Palette
 > Foreground Palette: Text/icons
 > Background Palette: subtle backgrounds (not the default white background)
+
+
+In 6+, u will have angular.json, else u will have angular-cli.json
+If angular.json, then src/my-theme.scss is added to styles:[]
+If angular-cli.json, then 
+
+material.angular.io
+- has a material design spec which lists all the colors and how to do a theme-file.
+
